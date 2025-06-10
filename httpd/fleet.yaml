@@ -1,0 +1,6 @@
+helm:
+  chart: bitnami/apache
+  repo: https://charts.bitnami.com/bitnami
+  version: 10.2.0
+  valuesFiles:
+    - values.yaml
